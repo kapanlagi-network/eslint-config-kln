@@ -1,0 +1,49 @@
+{
+  "name": "eslint-config-kln",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Opinionated ESLint configuration",
+  "homepage": "https://github.com/kapanlagi-network/eslint-config-kln",
+  "main": "lib/index.js",
+  "keywords": [
+    "kln",
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Simon Degraeve <simon.degraeve@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kapanlagi-network/eslint-config-kln.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kapanlagi-network/eslint-config-kln/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "babel --copy-files --out-dir lib src"
+  },
+  "dependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.1.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-import": "^1.0.0-beta.0",
+    "eslint-plugin-react": "^4.0.0-rc.1",
+    "lodash.mergewith": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-kln-node": "^0.1.0",
+    "rimraf": "^2.5.2"
+  },
+  "eslintConfig": {
+    "extends": "./lib/index.js"
+  },
+  "babel": {
+    "presets": [
+      "kln-node"
+    ]
+  }
+}
