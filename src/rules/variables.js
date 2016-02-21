@@ -3,7 +3,7 @@
  */
 export default {
   rules: {
-    'init-declarations': [2, 'never'],
+    'init-declarations': [2, 'always'],
     'no-catch-shadow': 0,
     'no-delete-var': 2,
     'no-label-var': 2,
