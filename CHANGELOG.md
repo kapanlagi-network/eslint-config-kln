@@ -1,3 +1,13 @@
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/kapanlagi-network/eslint-config-kln/compare/v0.1.4...v0.1.5) (2016-02-21)
+
+
+### Bug Fixes
+
+* incomplete change in object-curly-spacing ([948778b](https://github.com/kapanlagi-network/eslint-config-kln/commit/948778b))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/kapanlagi-network/eslint-config-kln/compare/v0.1.3...v0.1.4) (2016-02-21)
 
