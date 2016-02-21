@@ -17,8 +17,8 @@ export default {
 
     'object-curly-spacing': 0,
     'babel/object-curly-spacing': [2, 'always', {
-      objectsInObjects: false,
-      arraysInObjects: false,
+      objectsInObjects: true,
+      arraysInObjects: true,
     }],
 
     'object-shorthand': 0,
