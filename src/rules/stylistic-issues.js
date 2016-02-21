@@ -66,8 +66,8 @@ export default {
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 2,
     'object-curly-spacing': [2, 'always', {
-      objectsInObjects: false,
-      arraysInObjects: false,
+      objectsInObjects: true,
+      arraysInObjects: true,
     }],
     'one-var': [2, 'never'],
     'one-var-declaration-per-line': [2, 'always'],
