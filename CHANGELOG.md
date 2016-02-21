@@ -25,7 +25,7 @@
 
 
 <a name="0.1.0"></a>
-# [0.1.0](https://github.com/kapanlagi-network/eslint-config-kln/compare/346f913...v0.1.0) (2016-02-20)
+# [0.1.0](https://github.com/kapanlagi-network/eslint-config-kln/compare/346f913...v0.1.0) (2016-02-21)
 
 
 ### Features
