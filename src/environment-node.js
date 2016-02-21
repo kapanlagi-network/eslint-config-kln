@@ -6,7 +6,7 @@ export default {
     'callback-return': [2, [
       'resolve', 'reject', 'error', 'done', 'cb', 'callback', 'result', 'next',
     ]],
-    'global-require': 2,
+    'global-require': 0,
     'handle-callback-err': [2, '^.*(e|E)rr'],
     'no-mixed-requires': [2, { grouping: true, allowCall: true }],
     'no-new-require': 2,
