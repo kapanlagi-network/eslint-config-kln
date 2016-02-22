@@ -1,3 +1,13 @@
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/kapanlagi-network/eslint-config-kln/compare/v0.1.5...v0.1.6) (2016-02-22)
+
+
+### Features
+
+* change no-shadow ([951b020](https://github.com/kapanlagi-network/eslint-config-kln/commit/951b020))
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/kapanlagi-network/eslint-config-kln/compare/v0.1.4...v0.1.5) (2016-02-21)
 
