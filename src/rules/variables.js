@@ -8,8 +8,8 @@ export default {
     'no-delete-var': 2,
     'no-label-var': 2,
     'no-shadow': [2, {
-      builtinGlobals: true,
-      hoist: 'all',
+      builtinGlobals: false,
+      hoist: 'functions',
       allow: [
         'resolve', 'reject', 'error', 'done', 'cb', 'callback', 'result', 'next',
       ],
